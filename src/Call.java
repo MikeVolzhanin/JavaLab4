@@ -1,8 +1,8 @@
 import java.util.Objects;
 
 public class Call {
-    private Direction direction;
-    private int finalLevel;
+    private final Direction direction;
+    private final int finalLevel;
     public Call(Direction direction, int endFloor){
         this.direction = direction;
         this.finalLevel = endFloor;

@@ -5,8 +5,8 @@ public class People implements Runnable{
     private final Queue<Call> calls;
     private final int countLevels;
     private final long period;
-    public People(Queue<Call> requests, int countLevels, long period){
-        this.calls = requests;
+    public People(Queue<Call> calls, int countLevels, long period){
+        this.calls = calls;
         this.countLevels = countLevels;
         this.period = period;
     }
